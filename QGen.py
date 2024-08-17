@@ -14,7 +14,7 @@ from transformers import T5ForConditionalGeneration, T5Tokenizer
 from huggingface_hub import login
 
 # Hugging Face authentication
-api_key = "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"
+api_key = "your_huggingface_token"
 login(token=api_key)
 
 # Load the pre-trained Valhalla model and tokenizer for question generation
@@ -23,7 +23,7 @@ device = torch.device('cuda' if torch.cuda.is_available() else 'cpu')
 t5_model = T5ForConditionalGeneration.from_pretrained(model_name).to(device)
 t5_tokenizer = T5Tokenizer.from_pretrained(model_name, legacy=False)
 
-pdf_path = "/sample_pdf/UNIT 1 ML.pdf"
+pdf_path = "pdf_path"
 
 # Function to extract text and images from PDF
 def extract_text_and_images(pdf_path):
