@@ -31,7 +31,7 @@ To set up the QA Pair Generator on your local machine, follow these steps:
 Start by cloning the repository to your local machine:
 
 ```bash
-git clone [<repository-url>](https://github.com/MalaiarasuGRaj/QA-Pair-Generator/tree/main)
+git clone https://github.com/MalaiarasuGRaj/QA-Pair-Generator/tree/main
 cd qa_generator
 ``` 
 
