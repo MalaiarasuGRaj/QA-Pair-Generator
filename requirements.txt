@@ -1,0 +1,11 @@
+transformers
+pymupdf
+pytesseract
+pillow
+huggingface_hub
+streamlit
+torch
+pyngrok
+transformers
+torch
+keras
