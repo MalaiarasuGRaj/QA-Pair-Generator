@@ -9,3 +9,4 @@ pyngrok
 transformers
 torch
 keras
+sentencepiece
